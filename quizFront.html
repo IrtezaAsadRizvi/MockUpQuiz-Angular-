@@ -1,0 +1,25 @@
+<div class="quiz-container" ng-controller="quizCtrl">
+<div class="timer"></div>
+<!--THE QUESTION-->
+<div class="row">
+  <div class="col-md-12">
+    <p id="question">Q{{activeQues+1}}. {{quizQuestions[activeQues].text}}</p>
+  </div>
+</div>
+<!--THE OPTIONS-->
+<div class="row" style="padding: 0px 5px">
+  <div id="option-holder" class="col-md-6" ng-repeat="option in quizQuestions[activeQues].possibilities">
+    <div id="option" ng-if="quizQuestions[activeQues].type === 'text'"
+        ng-click="setOption($index)"
+        ng-class="{'opt-selected': $index === optionSelected}">{{option.answer}}</div>
+    <div id="option-img" ng-if="quizQuestions[activeQues].type === 'image'"
+        ng-click="setOption($index)"
+        ng-class="{'opt-selected': $index === optionSelected}"><img src="{{option.answer}}"></div>
+  </div>
+</div>
+<!--CONTINUE BUTTON-->
+<div class="pull-bottom">
+  <button id="continue" type="button" ng-click="continue()">Continue</button>
+  <button type="button" id="back-to-home-btn-quiz" ng-click="home()">Back to home</button>
+</div>
+</div>

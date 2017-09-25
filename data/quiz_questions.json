@@ -1,0 +1,202 @@
+[
+        {
+            "type": "text",
+            "text": "Which one among these is a star?",
+            "possibilities": [
+                {
+                    "answer": "Earth"
+                },
+                {
+                    "answer": "Moon"
+                },
+                {
+                    "answer": "Sun"
+                },
+                {
+                    "answer": "Saturn"
+                }
+            ],
+            "selected": null,
+            "correct": 2
+        },
+        {
+            "type": "text",
+            "text": "How much is moon's gravity?",
+            "possibilities": [
+                {
+                    "answer": "1.62 m/s²"
+                },
+                {
+                    "answer": "9.8 m/s²"
+                },
+                {
+                    "answer": "13.2 m/s²"
+                },
+                {
+                    "answer": "281.0 m/s²"
+                }
+            ],
+            "selected": null,
+            "correct": 0
+        },
+        {
+            "type": "image",
+            "text": "Which of these is the MilkyWay Galaxy?",
+            "possibilities": [
+                {
+                    "answer": "https://image.ibb.co/bO1xDQ/mars.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/ddshf5/sun.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/ibh4tQ/moon.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/j6Y4dQ/milkyway.png"
+                }
+            ],
+            "selected": null,
+            "correct": 3
+        },
+        {
+            "type": "image",
+            "text": "Which of these is the largest planet in the solar System?",
+            "possibilities": [
+                {
+                    "answer": "https://image.ibb.co/ddshf5/sun.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/bO1xDQ/mars.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/bJJYnk/earth.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/jZS4tQ/jupitar.png"
+                }
+            ],
+            "selected": null,
+            "correct": 3
+        },
+        {
+            "type": "text",
+            "text": "what is Mar's position from the Sun?'",
+            "possibilities": [
+                {
+                    "answer": "third"
+                },
+                {
+                    "answer": "fourth"
+                },
+                {
+                    "answer": "sixth"
+                },
+                {
+                    "answer": "first"
+                }
+            ],
+            "selected": null,
+            "correct": 1
+        },
+        {
+            "type": "text",
+            "text": "Which one is the 'Gas Giant'?",
+            "possibilities": [
+                {
+                    "answer": "Jupiter"
+                },
+                {
+                    "answer": "Saturn"
+                },
+                {
+                    "answer": "Both 1 & 2"
+                },
+                {
+                    "answer": "none"
+                }
+            ],
+            "selected": null,
+            "correct": 2
+        },
+        {
+            "type": "text",
+            "text": "Which Galaxy holds our Solar System?",
+            "possibilities": [
+                {
+                    "answer": "Andromeda"
+                },
+                {
+                    "answer": "Centaurus"
+                },
+                {
+                    "answer": "Triangulum"
+                },
+                {
+                    "answer": "Milky Way"
+                }
+            ],
+            "selected": null,
+            "correct": 3
+        },
+        {
+            "type": "image",
+            "text": "Which of these is the second-largest planet in the Solar System?",
+            "possibilities": [
+                {
+                    "answer": "https://image.ibb.co/mq9jtQ/saturn.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/bO1xDQ/mars.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/bJJYnk/earth.png"
+                },
+                {
+                    "answer": "https://image.ibb.co/jZS4tQ/jupitar.png"
+                }
+            ],
+            "selected": null,
+            "correct": 0
+        },
+        {
+            "type": "text",
+            "text": "Saturn is named after what?",
+            "possibilities": [
+                {
+                    "answer": "Greek politician"
+                },
+                {
+                    "answer": "Roman god of agriculture"
+                },
+                {
+                    "answer": "Day in the week"
+                },
+                {
+                    "answer": "Indian Temple"
+                }
+            ],
+            "selected": null,
+            "correct": 1
+        },
+        {
+            "type": "text",
+            "text": "Where does comet comes from?",
+            "possibilities": [
+                {
+                    "answer": "The Sun"
+                },
+                {
+                    "answer": "Oort's cloud"
+                },
+                {
+                    "answer": "Asteroid belt"
+                },
+                {
+                    "answer": "Mars"
+                }
+            ],
+            "selected": null,
+            "correct": 2
+        }
+    ]

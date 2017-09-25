@@ -1,0 +1,61 @@
+<div ng-controller="study_material_ctrl">
+  <div class="row" id="study_material">
+    <!--TITLE-->
+    <center><h3 id="study_material_title">STUDY MATERIAL</h3></center>
+    <!--SEARCH BAR-->
+    <div class="row">
+      <form id="item-search">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" id="search-bar" ng-model="search" placeholder="Search Item">
+      </form>
+    </div>
+    <!--CONTENT-->
+    <div class="row">
+      <div id="item-block" class="col-md-6 col-sm-6 col-xs-offset-3" ng-repeat="item in itemList | filter:search">
+        <div class="row">
+          <!--ITEM IMG-->
+          <img id="item-img" class="col-md-5" ng-src="{{item.image_url}}">
+          <!--SHORT DESC & BUTTON-->
+          <div class="col-md-7">
+            <h3 id="item-title">{{item.type}}</h3>
+            <p id="item-short">{{item.short_des}}</p>
+            <button type="button" id="item-btn" data-toggle="modal" data-target="#info" ng-click="changeActiveItem(item)">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div><br>
+  </div>
+  <!--START QUIZ-->
+  <center><button type="button" ng-click="goToQuizPage()" id="start-btn">Start Quiz</button></center>
+
+  <!--info-modal-->
+  <div class="modal" id="info" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="modal-title">{{activeItem.type}}</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <img id="modal-img" class="col-md-6" ng-src="{{activeItem.image_url}}">
+            <div class="col-md-6">
+              <br><br>
+              <p>{{activeItem.short_des}}</p><br>
+              <strong>Age:</strong> {{activeItem.age}}<br>
+              <strong>Mean Radius:</strong> {{activeItem.mean_radius}}<br>
+              <strong>Surface Gravity:</strong> {{activeItem.surface_gravity}}<br>
+            </div>
+          </div>
+          <div class="row" id="modal-description">
+            <strong>Description:</strong> {{activeItem.description}}
+            <a href="{{activeItem.wiki}}" target="_blank"><i>Read Wiki</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--end of modal-->
+
+
+</div>

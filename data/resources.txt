@@ -1,0 +1,21 @@
+##----------IMAGES----------##
+
+https://image.ibb.co/bJJYnk/earth.png
+https://image.ibb.co/jZS4tQ/jupitar.png
+https://image.ibb.co/fjmkk5/logo.png
+https://image.ibb.co/bO1xDQ/mars.png
+https://image.ibb.co/j6Y4dQ/milkyway.png
+https://image.ibb.co/ibh4tQ/moon.png
+https://image.ibb.co/mq9jtQ/saturn.png
+https://image.ibb.co/ddshf5/sun.png
+https://image.ibb.co/iiLPtQ/astroid.png
+
+
+##----------COLORS----------##
+
+red: #F73711
+black: #111214
+white: #F7F7F7
+blue: #01AFD3
+yellow: #F7C134
+gray: #CDCDCD

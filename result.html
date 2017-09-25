@@ -1,0 +1,16 @@
+<div ng-controller="resultCtrl">
+  <!--TITLE-->
+  <center><h3 id="study_material_title">RESULT</h3></center>
+  <div class="row" id="res-container">
+    <div id="score">
+      {{score + "/" + resultSet.length}}
+    </div>
+    <div id="mistakes" ng-repeat="res in resultSet">
+      <div ng-if="res.selected != res.correct">
+        Q: {{res.text}}<br>
+        A: you selected {{res.selected}} while the ans is {{res.correct}}
+      </div>
+    </div>
+  </div>
+  <button type="button" class="pull-bottom" id="back-to-home-btn" ng-click="home()">Back to home</button>
+</div>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MockUp Quiz!</title>
+    <!---->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!---->
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <!--APP START-->
+  <body ng-app="mockup">
+    <!--LOADER-->
+    <div id="overlay">
+      <div class="spinner"></div>
+    </div>
+
+    <a href="https://codepen.io/IrtezaAsad/" target="_blank" id="codepen"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+
+    <!--LOGO-->
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div id="logo"></div>
+      </div>
+    </div>
+    <div class="row" id="container">
+      <!--NG-VIEW-->
+      <div ng-view></div>
+    </div>
+    <!--END OF VIEW-->
+    <footer class="pull-bottom">
+      <div class="row">
+        <div class="col-md-7">
+          <h3>What are you seeing?</h3>
+          <p>This is a Project done for the course System Analysis <br>Department of CSE,<a href="http://ulab.edu.bd/" target="_blank">ULAB</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/controllers/study_material_ctrl.js"></script>
+    <script src="js/controllers/quiz_front_ctrl.js"></script>
+    <script src="js/controllers/result_ctrl.js"></script>
+  </body>
+</html>
