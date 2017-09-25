@@ -13,3 +13,10 @@ continues with a single click on the continue button generated bellow. The thing
 makes our quiz app unique is how fast and light weight this is. Each and every operation
 is loaded and executed with condition from the previous operation. So No extra features
 load unless called upon meaning the initial system is light-weight and fast one to load.
+
+
+**Front Page**
+![screencapture-localhost-mockupquiz-1506340258281](https://user-images.githubusercontent.com/28251351/30807134-5b2c9056-a21a-11e7-8407-fdb3f8324140.png)
+
+**Quiz Page**
+![screencapture-localhost-mockupquiz-1506340280923](https://user-images.githubusercontent.com/28251351/30807143-653f59ac-a21a-11e7-9481-738c20aec2cc.png)
